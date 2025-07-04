@@ -25,7 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 144rem;
+
   height: 60.5rem;
   border-bottom: 1px solid #33a8db;
   background-image: linear-gradient(
@@ -45,9 +45,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1.6rem;
-
-  /* color: white; */
-  /* border: 1px white solid; */
 
   width: 51rem;
   height: 50rem;
@@ -104,8 +101,6 @@ body {
 #course-content {
   color: #fff;
 
-  /* border: 1px solid red; */
-
   & h2 {
     font-size: 3.2rem;
     font-weight: bold;
@@ -129,8 +124,6 @@ body {
   width: 79.2rem;
   height: 32.5rem;
   margin: 5rem auto;
-
-  /* border: 1px solid deeppink; */
 }
 
 .modules-list {
@@ -181,5 +174,63 @@ body {
     height: 14.1rem;
     text-transform: lowercase;
     margin-left: 19.8rem;
+  }
+}
+
+/* EVOLUA E ENCARE NOVOS DESAFIOS */
+
+#professional-challenges {
+  padding: 6rem 3rem;
+  color: #fff;
+
+  border-bottom: 1px dotted #33a8db;
+
+  & h2 {
+    color: #33a8db;
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.32rem;
+  }
+
+  & p {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+}
+
+#professional-challenges .container {
+  max-width: 76rem;
+
+  display: flex;
+  flex-flow: column;
+  gap: 3.2rem;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  background-image: linear-gradient(black, #33a9db20);
+
+  height: 17rem;
+
+  display: flex;
+  gap: 1rem;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  & p {
+    font-size: 1.6rem;
+    color: #fff;
+
+    & a {
+      color: #33a8db;
+      text-decoration: none;
+      font-weight: 700;
+    }
   }
 }
