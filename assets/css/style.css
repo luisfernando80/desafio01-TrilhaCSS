@@ -155,3 +155,31 @@ body {
 }
 
 /* TRANSFORME O MUNDO COM A GENTE */
+
+#transform-world {
+  display: flex;
+  align-items: center;
+  width: 1440rem;
+  height: 39.3rem;
+
+  background-image: url(../images/woman-code.png);
+  background-attachment: fixed;
+
+  /* a ordem do background-size influencia no resultado */
+  background-size: 96rem;
+  background-size: cover;
+
+  border-top: 1px solid #33a8db;
+  border-bottom: 1px solid #33a8db;
+  color: white;
+
+  & p {
+    font-size: 4rem;
+    font-weight: 900;
+    text-shadow: 0.3rem 0.2rem #33a8db;
+    width: 24.4rem;
+    height: 14.1rem;
+    text-transform: lowercase;
+    margin-left: 19.8rem;
+  }
+}
